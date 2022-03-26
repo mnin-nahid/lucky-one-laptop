@@ -1,4 +1,25 @@
 .cart-items{
-    border: 2px solid lightblue;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.cart-items img{
+    border-radius: 10px 10px 0 0;
+}
+.cart-button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    
+}
+.cart-button:hover{
+    background-color: lightslategray;
+}
+.product-info{
+    padding-left: 10px;
 }

@@ -7,8 +7,6 @@ const Header = () => {
             <nav className='header'>
                 <h1>Laptop Picker</h1>
                 <div>
-                    <a href="/home">Home</a>
-                    <a href="/QandA">QandA</a>
                     <a href="/about-us">About us</a>
                 </div>
             </nav>
