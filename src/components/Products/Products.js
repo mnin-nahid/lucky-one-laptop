@@ -15,17 +15,14 @@ const Products = () => {
     const addToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
-        console.log(newCart);
     }
     const clearCart = () => {
         const newCart = [];
         setCart(newCart);
     }
     const rendomOne = () => {
-        // console.log(cart);
         const random = Math.floor(Math.random() * cart.length);
         const newCart = [cart[random]];
-        console.log(newCart);
         setCart(newCart);
     }
     return (

@@ -1,3 +1,3 @@
 # Laptop Picker
 
-live link [Create React App](https://github.com/facebook/create-react-app).
+live : [Link](https://heartfelt-starburst-8ab0fd.netlify.app/).
